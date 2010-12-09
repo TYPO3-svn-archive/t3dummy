@@ -1,0 +1,270 @@
+<!-- ###TEMPLATE_FORM1### begin -->
+###ERROR###
+<div id="formhandler_contact_form">
+	<form id="mailform" method="post" action="###REL_URL###" enctype="multipart/form-data">
+		<input type="hidden" name="formhandler[submitted]" value="1" />
+			
+		<div class="csc-mailform-field">
+			###error_firstname###
+			<label for="firstname" class="col1">###LLL:firstname### ###required_firstname###</label>
+			<input type="text" name="formhandler[firstname]" id="firstname" value="###value_firstname###"/>
+		</div>
+		<div class="csc-mailform-field">
+			###error_lastname###
+			<label for="lastname" class="col1">###LLL:lastname### ###required_lastname###</label>
+			<input type="text" name="formhandler[lastname]" id="lastname" value="###value_lastname###"/>
+		</div>
+		<div class="csc-mailform-field">
+			###error_email###
+			<label for="email" class="col1">###LLL:email### ###required_email###</label>
+			<input type="text" name="formhandler[email]" id="email" value="###value_email###"/>
+		</div>
+		<div class="csc-mailform-field">
+			###error_phone###
+			<label for="form_phone" class="col1">###LLL:phone### ###required_email###</label>
+			<input type="text" name="formhandler[phone]" id="form_phone" value="###value_phone###"/>
+		</div>
+		<div class="csc-mailform-field">
+			<label for="form_message">Weitere Informationen</label><br />
+			<textarea name="formhandler[message]" id="form_message">###value_message###</textarea>
+		</div>
+		<div class="csc-mailform-field">
+			<p>###LLL:required_fields###</p>
+			<input type="submit" value="###LLL:submit###" ###submit_nextStep###/>
+		</div>
+	</form>
+</div>
+<!-- ###TEMPLATE_FORM1### end -->
+
+<!-- ###TEMPLATE_EMAIL_USER_PLAIN### begin -->
+Hello ###value_firstname### ###value_lastname###,
+
+you have just filled out the form.
+
+Thanks for your request, we will answer asap.
+
+Typoheads
+<!-- ###TEMPLATE_EMAIL_USER_PLAIN### end -->
+
+<!-- ###TEMPLATE_EMAIL_USER_HTML### begin -->
+<p>
+	Hello ###value_firstname### ###value_lastname###,
+</p>
+<p>
+	you have just filled out the form.
+</p>
+<p>
+	Thanks for your request, we will answer asap.
+</p>
+Typoheads
+<!-- ###TEMPLATE_EMAIL_USER_HTML### end -->
+
+<!-- ###TEMPLATE_EMAIL_ADMIN_PLAIN### begin -->
+Hello Admin,
+
+A user has just filled out the form.
+
+###LLL:lastname### ###value_lastname###
+###LLL:firstname### ###value_firstname###
+###LLL:email### ###value_email###
+###LLL:interests### ###value_interests###
+###LLL:contact_via### ###value_contact_via###
+<!-- ###TEMPLATE_EMAIL_ADMIN_PLAIN### end -->
+
+<!-- ###TEMPLATE_EMAIL_ADMIN_HTML### begin -->
+<html>
+	<head>
+		<!-- OUTLOOK DOES NOT SEE STYLES LOCATED IN THE HEAD :( -->
+	</head>
+	<body>
+		<style>
+			p, table{font-family: Verdana; font-size: 10pt}
+			.leftColumn {padding-top: 10px; padding-right: 5px; border-bottom: 1px dotted black}
+			.rightColumn {padding-top: 10px; border-bottom: 1px dotted black; font-weight: bold}
+		</style>
+		<p>Ein Besucher hat folgende Druckkostenanfrage gestellt</p>
+		<h3>Kontaktdaten</h3>
+		<table cellpadding="0" cellspacing="0">
+			<tr>
+				<td class="leftColumn">###LLL:lastname###</td>
+				<td class="rightColumn">###value_lastname###</td>
+			</tr>
+			<tr>
+				<td class="leftColumn">###LLL:firstname###</td>
+				<td class="rightColumn">###value_firstname###</td>
+			</tr>
+			<tr>
+				<td class="leftColumn">###LLL:email###</td>
+				<td class="rightColumn">###value_email###</td>
+			</tr>
+			<!-- ###ISSET_phone### -->
+  			<tr>
+				<td class="leftColumn">Telefon</td>
+				<td class="rightColumn">###value_phone###</td>
+			</tr>
+			<!-- ###ISSET_phone### -->
+			<tr>
+				<td class="leftColumn">###LLL:contact_via###</td>
+				<td class="rightColumn">###value_contact_via###</td>
+			</tr>
+		</table>
+		<!-- ###ISSET_brochure### -->
+		<h3>Broschüre</h3>
+		<table cellpadding="0" cellspacing="0">
+			<tr>
+				<td class="leftColumn">Seiten Inhalt</td>
+				<td class="rightColumn">###value_brochure_content###</td>
+			</tr>
+			<tr>
+				<td class="leftColumn">Seiten Umschlag</td>
+				<td class="rightColumn">###value_brochure_foldover###</td>
+			</tr>
+			<tr>
+				<td class="leftColumn">Farben</td>
+				<td class="rightColumn">###value_brochure_colors###</td>
+			</tr>
+			<tr>
+				<td class="leftColumn">Papier</td>
+				<td class="rightColumn">###value_brochure_paper###</td>
+			</tr>
+			<tr>
+				<td class="leftColumn">Bindung</td>
+				<td class="rightColumn">###value_brochure_binding###</td>
+			</tr>
+			<tr>
+				<td class="leftColumn">Auflagen</td>
+				<td class="rightColumn">###value_brochure_run_1### / ###value_brochure_run_2### / ###value_brochure_run_3###</td>
+			</tr>
+		</table>
+		<!-- ###ISSET_brochure### -->0
+		<!-- ###ISSET_flysheet### -->
+		<h3>Prospekt</h3>
+		<table cellpadding="0" cellspacing="0">
+			<!-- ###ISSET_flysheet_customfold### -->
+			<tr>
+				<td class="leftColumn">Falz</td>
+				<td class="rightColumn">###value_flysheet_customfold###-seitig gefalzt</td>
+			</tr>
+			<!-- ###ISSET_flysheet_customfold### -->
+			<!-- ###ISSET_!flysheet_customfold### -->
+			<tr>
+				<td class="leftColumn">Falz</td>
+				<td class="rightColumn">###value_flysheet_fold###</td>
+			</tr>
+			<!-- ###ISSET_!flysheet_customfold### -->
+			<tr>
+				<td class="leftColumn">Format</td>
+				<td class="rightColumn">###value_flysheet_format###</td>
+			</tr>
+			<tr>
+				<td class="leftColumn">Farben</td>
+				<td class="rightColumn">###value_flysheet_colors###</td>
+			</tr>
+			<tr>
+				<td class="leftColumn">Papier</td>
+				<td class="rightColumn">###value_flysheet_paper###</td>
+			</tr>
+			<tr>
+				<td class="leftColumn">Auflagen</td>
+				<td class="rightColumn">###value_flysheet_run_1### / ###value_flysheet_run_2### / ###value_flysheet_run_3###</td>
+			</tr>
+		</table>
+		<!-- ###ISSET_flysheet### -->
+		<!-- ###ISSET_businesspaper### -->
+		<h3>Geschäftspapier</h3>
+		<table cellpadding="0" cellspacing="0">
+			<tr>
+				<td class="leftColumn">Format</td>
+				<td class="rightColumn">###value_businesspaper_format###</td>
+			</tr>
+			<tr>
+				<td class="leftColumn">Farben</td>
+				<td class="rightColumn">###value_businesspaper_colors###</td>
+			</tr>
+			<tr>
+				<td class="leftColumn">Papier</td>
+				<td class="rightColumn">###value_businesspaper_paper###</td>
+			</tr>
+			<tr>
+				<td class="leftColumn">Auflagen</td>
+				<td class="rightColumn">###value_businesspaper_run_1### / ###value_businesspaper_run_2### / ###value_businesspaper_run_3###</td>
+			</tr>
+		</table>
+		<!-- ###ISSET_businesspaper### -->
+		<!-- ###ISSET_businesscard### -->
+		<h3>Geschäftspapier</h3>
+		<table cellpadding="0" cellspacing="0">
+			<tr>
+				<td class="leftColumn">Falz</td>
+				<td class="rightColumn">###value_businesscard_fold###</td>
+			</tr>
+			<!-- ###ISSET_businesscard_customformat### -->
+			<tr>
+				<td class="leftColumn">Format</td>
+				<td class="rightColumn">###value_businesscard_customformat###</td>
+			</tr>
+			<!-- ###ISSET_businesscard_customformat### -->
+			<!-- ###ISSET_!businesscard_customformat### -->
+			<tr>
+				<td class="leftColumn">Format</td>
+				<td class="rightColumn">###value_businesscard_format###</td>
+			</tr>
+			<!-- ###ISSET_!businesscard_customformat### -->
+			<tr>
+				<td class="leftColumn">Farben</td>
+				<td class="rightColumn">###value_businesscard_colors###</td>
+			</tr>
+			<!-- ###ISSET_businesscard_custompaper### -->
+			<tr>
+				<td class="leftColumn">Papier</td>
+				<td class="rightColumn">###value_businesscard_custompaper###</td>
+			</tr>
+			<!-- ###ISSET_businesscard_custompaper### -->
+			<!-- ###ISSET_!businesscard_custompaper### -->
+			<tr>
+				<td class="leftColumn">Papier</td>
+				<td class="rightColumn">###value_businesscard_paper###</td>
+			</tr>
+			<!-- ###ISSET_!businesscard_customformat### -->
+			<tr>
+				<td class="leftColumn">Auflagen</td>
+				<td class="rightColumn">###value_businesscard_run_1### / ###value_businesscard_run_2### / ###value_businesscard_run_3###</td>
+			</tr>
+		</table>
+		<!-- ###ISSET_businesscard### -->
+	</body>
+</html>
+<!-- ###TEMPLATE_EMAIL_ADMIN_HTML### end -->
+
+<!-- ###TEMPLATE_CONFIRMATION### begin -->
+
+<table>
+	<tr>
+		<td>###LLL:firstname###</td>
+		<td>###value_firstname###</td>
+	</tr>
+
+	<tr>
+		<td>###LLL:lastname###</td>
+		<td>###value_lastname###</td>
+	</tr>
+
+	<tr>
+		<td>###LLL:email###</td>
+		<td>###value_email###</td>
+	</tr>
+
+	<tr>
+		<td>###LLL:interests###</td>
+		<td>###value_interests###</td>
+	</tr>
+
+	<tr>
+		<td>###LLL:contact_via###</td>
+		<td>###value_contact_via###</td>
+	</tr>
+</table>
+<div>
+	###PRINT_LINK### / ###PDF_LINK### / ###CSV_LINK###
+</div>
+<!-- ###TEMPLATE_CONFIRMATION### end -->

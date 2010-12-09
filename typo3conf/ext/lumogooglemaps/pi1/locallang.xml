@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_lumogooglemaps_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<!-- Default: English -->
+		<languageKey index="default" type="array">
+			<!-- Common -->
+			<label index="flexform.sheets.common.tsconfig">Set from TS</label>
+			<!-- Sheet: General -->
+			<label index="flexform.sheets.general.title">General</label>
+			<label index="flexform.sheets.general.width">Width of map</label>
+			<label index="flexform.sheets.general.height">Height of map</label>
+			<label index="flexform.sheets.general.type">Type of map</label>
+			<label index="flexform.sheets.general.type.map">Map</label>
+			<label index="flexform.sheets.general.type.satellite">Satellite</label>
+			<label index="flexform.sheets.general.type.hybrid">Hybrid</label>
+			<label index="flexform.sheets.general.type_controls">Show type controls</label>
+			<label index="flexform.sheets.general.type_controls.show">Show</label>
+			<label index="flexform.sheets.general.type_controls.hide">Hide</label>
+			<label index="flexform.sheets.general.nav_controls">Navigation controls</label>
+			<label index="flexform.sheets.general.nav_controls.none">None</label>
+			<label index="flexform.sheets.general.nav_controls.small">Small</label>
+			<label index="flexform.sheets.general.nav_controls.large">Large</label>
+			<label index="flexform.sheets.general.zoom">Default zoom level</label>
+			<label index="flexform.sheets.general.zoom.auto">Auto (calculated from marker points)</label>
+			<label index="flexform.sheets.general.zoom.1">1 (0.75 m/px)</label>
+			<label index="flexform.sheets.general.zoom.2">2 (1.5 m/px)</label>
+			<label index="flexform.sheets.general.zoom.3">3 (3 m/px)</label>
+			<label index="flexform.sheets.general.zoom.4">4 (6 m/px)</label>
+			<label index="flexform.sheets.general.zoom.5">5 (12 m/px)</label>
+			<label index="flexform.sheets.general.zoom.6">6 (24 m/px)</label>
+			<label index="flexform.sheets.general.zoom.7">7 (48 m/px)</label>
+			<label index="flexform.sheets.general.zoom.8">8 (95 m/px)</label>
+			<label index="flexform.sheets.general.zoom.9">9 (190 m/px)</label>
+			<label index="flexform.sheets.general.zoom.10">10 (375 m/px)</label>
+			<label index="flexform.sheets.general.zoom.11">11 (0.75 km/px)</label>
+			<label index="flexform.sheets.general.zoom.12">12 (1.5 km/px)</label>
+			<label index="flexform.sheets.general.zoom.13">13 (3 km/px)</label>
+			<label index="flexform.sheets.general.zoom.14">14 (6 km/px)</label>
+			<label index="flexform.sheets.general.zoom.15">15 (12 km/px)</label>
+			<label index="flexform.sheets.general.zoom.16">16 (25 km/px)</label>
+			<label index="flexform.sheets.general.zoom.17">17 (50 km/px)</label>
+			<label index="flexform.sheets.general.zoom.18">18 (100 km/px)</label>
+			<!-- Sheet: Data -->
+			<label index="flexform.sheets.data.title">Data</label>
+			<label index="flexform.sheets.data.center.longitude">Longitude of center point</label>
+			<label index="flexform.sheets.data.center.latitude">Latitude of center point</label>
+			<label index="flexform.sheets.data.center.show">Show center point</label>
+			<label index="flexform.sheets.data.center.show.always">Always</label>
+			<label index="flexform.sheets.data.center.show.ifempty">Only if no address is shown</label>
+			<label index="flexform.sheets.data.startingpoint">Starting point</label>
+			<label index="flexform.sheets.data.recursive">Recursive</label>
+			<label index="flexform.sheets.data.recursive.0"></label>
+			<label index="flexform.sheets.data.recursive.1">1 level</label>
+			<label index="flexform.sheets.data.recursive.2">2 levels</label>
+			<label index="flexform.sheets.data.recursive.3">3 levels</label>
+			<label index="flexform.sheets.data.recursive.4">4 levels</label>
+			<label index="flexform.sheets.data.recursive.infinite">Infinite</label>
+			<!-- Sheet: Template -->
+			<label index="flexform.sheets.template.title">Template</label>
+			<label index="flexform.sheets.template.template_file">Template file</label>
+			<label index="flexform.sheets.template.marker_icon">Marker icon</label>
+			<label index="flexform.sheets.template.marker_shadow">Marker shadow</label>
+			<label index="flexform.sheets.template.marker_spot_x">x coord in image for spot</label>
+			<label index="flexform.sheets.template.marker_spot_y">y coord in image for spot</label>
+			<label index="flexform.sheets.template.marker_info_x">x coord in image for info box</label>
+			<label index="flexform.sheets.template.marker_info_y">y coord in image for info box</label>
+			<!-- Language labels for map -->
+			<label index="map.directions.dir_text">Directions: </label>
+			<label index="map.directions.dir_tohere">To here</label>
+			<label index="map.directions.dir_fromhere">From here</label>
+			<label index="map.directions.dir_to">Start address: (include addr, city st/region)</label>
+			<label index="map.directions.button_to">Get Directions</label>
+			<label index="map.directions.dir_from">End address: (include addr, city st/region)</label>
+			<label index="map.directions.button_from">Get Directions</label>
+			<label index="map.browseralert">Sorry, the Google Maps API is not compatible with this browser.</label>
+			<label index="map.jsalert">JavaScript must be enabled in order to use Google Maps.</label>
+		</languageKey>
+		<!-- German -->
+		<languageKey index="de" type="array">
+			<!-- Common -->
+			<label index="flexform.sheets.common.tsconfig">Definiert durch TS</label>
+			<!-- Sheet: General -->
+			<label index="flexform.sheets.general.title">Allgemein</label>
+			<label index="flexform.sheets.general.width">Breite der Karte</label>
+			<label index="flexform.sheets.general.height">Höhe der Karte</label>
+			<label index="flexform.sheets.general.type">Kartentyp</label>
+			<label index="flexform.sheets.general.type.map">Karte</label>
+			<label index="flexform.sheets.general.type.satellite">Satellit</label>
+			<label index="flexform.sheets.general.type.hybrid">Hybrid (Karte + Satellit)</label>
+			<label index="flexform.sheets.general.type_controls">Umschalter für Kartentyp anzeigen</label>
+			<label index="flexform.sheets.general.type_controls.show">Anzeigen</label>
+			<label index="flexform.sheets.general.type_controls.hide">Verstecken</label>
+			<label index="flexform.sheets.general.nav_controls">Navigationsschalter anzeigen</label>
+			<label index="flexform.sheets.general.nav_controls.none">Keine</label>
+			<label index="flexform.sheets.general.nav_controls.small">Klein</label>
+			<label index="flexform.sheets.general.nav_controls.large">Groß</label>
+			<label index="flexform.sheets.general.zoom">Zoom-Level</label>
+			<label index="flexform.sheets.general.zoom.auto">Auto (berechnet aus angezeigten Punkten)</label>
+			<label index="flexform.sheets.general.zoom.1">1 (0,75 m/px)</label>
+			<label index="flexform.sheets.general.zoom.2">2 (1,5 m/px)</label>
+			<label index="flexform.sheets.general.zoom.3">3 (3 m/px)</label>
+			<label index="flexform.sheets.general.zoom.4">4 (6 m/px)</label>
+			<label index="flexform.sheets.general.zoom.5">5 (12 m/px)</label>
+			<label index="flexform.sheets.general.zoom.6">6 (24 m/px)</label>
+			<label index="flexform.sheets.general.zoom.7">7 (48 m/px)</label>
+			<label index="flexform.sheets.general.zoom.8">8 (95 m/px)</label>
+			<label index="flexform.sheets.general.zoom.9">9 (190 m/px)</label>
+			<label index="flexform.sheets.general.zoom.10">10 (375 m/px)</label>
+			<label index="flexform.sheets.general.zoom.11">11 (0,75 km/px)</label>
+			<label index="flexform.sheets.general.zoom.12">12 (1,5 km/px)</label>
+			<label index="flexform.sheets.general.zoom.13">13 (3 km/px)</label>
+			<label index="flexform.sheets.general.zoom.14">14 (6 km/px)</label>
+			<label index="flexform.sheets.general.zoom.15">15 (12 km/px)</label>
+			<label index="flexform.sheets.general.zoom.16">16 (25 km/px)</label>
+			<label index="flexform.sheets.general.zoom.17">17 (50 km/px)</label>
+			<label index="flexform.sheets.general.zoom.18">18 (100 km/px)</label>
+			<!-- Sheet: Data -->
+			<label index="flexform.sheets.data.title">Daten</label>
+			<label index="flexform.sheets.data.center.longitude">Geographische Länge des Kartenzentrums</label>
+			<label index="flexform.sheets.data.center.latitude">Geographische Breite des Kartenzentrums</label>
+			<label index="flexform.sheets.data.center.show">Kartenzentrum anzeigen</label>
+			<label index="flexform.sheets.data.center.show.always">Immer</label>
+			<label index="flexform.sheets.data.center.show.ifempty">Nur wenn keine Adresse angezeigt wird</label>
+			<label index="flexform.sheets.data.startingpoint">Ausgangspunkt</label>
+			<label index="flexform.sheets.data.recursive">Rekursiv</label>
+			<label index="flexform.sheets.data.recursive.0"></label>
+			<label index="flexform.sheets.data.recursive.1">1 Ebene</label>
+			<label index="flexform.sheets.data.recursive.2">2 Ebenen</label>
+			<label index="flexform.sheets.data.recursive.3">3 Ebenen</label>
+			<label index="flexform.sheets.data.recursive.4">4 Ebenen</label>
+			<label index="flexform.sheets.data.recursive.infinite">Unendlich</label>
+			<!-- Sheet: Template -->
+			<label index="flexform.sheets.template.title">Template</label>
+			<label index="flexform.sheets.template.template_file">Template-Datei</label>
+			<label index="flexform.sheets.template.marker_icon">Marker-Icon</label>
+			<label index="flexform.sheets.template.marker_shadow">Marker-Schatten</label>
+			<label index="flexform.sheets.template.marker_spot_x">X-Koordinate im Bild für Ort</label>
+			<label index="flexform.sheets.template.marker_spot_y">Y-Koordinate im Bild für Ort</label>
+			<label index="flexform.sheets.template.marker_info_x">X-Koordinate im Bild für Info-Box</label>
+			<label index="flexform.sheets.template.marker_info_y">Y-Koordinate im Bild für Info-Box</label>
+			<!-- Language labels for map -->
+			<label index="map.directions.dir_text">Wegbeschreibung: </label>
+			<label index="map.directions.dir_tohere">Hierher</label>
+			<label index="map.directions.dir_fromhere">Von hier aus</label>
+			<label index="map.directions.dir_to">Start-Adresse:</label>
+			<label index="map.directions.button_to">Wegbeschreibung anzeigen</label>
+			<label index="map.directions.dir_from">Ziel-Adresse:</label>
+			<label index="map.directions.button_from">Wegbeschreibung anzeigen</label>
+			<label index="map.browseralert">Google Maps ist mit diesem Browser nicht kompatibel.</label>
+			<label index="map.jsalert">Für die Anzeige von Google Maps muss JavaScript aktiviert sein.</label>
+		</languageKey>
+	</data>
+</T3locallang>

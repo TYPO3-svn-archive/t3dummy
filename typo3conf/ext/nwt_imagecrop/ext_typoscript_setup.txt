@@ -1,0 +1,21 @@
+tt_content.image.20.1.file {
+	width {
+		field = imagewidth
+		override.cObject = TEXT
+		override.cObject {
+			field = imagewidth
+			wrap = |c
+			if.isTrue.field = tx_nwtimagecrop_cropscaling
+		}
+	}
+	height {
+		field = imageheight
+		override.cObject = TEXT
+		override.cObject {
+			field = imageheight
+			wrap = |c
+			if.isTrue.field = tx_nwtimagecrop_cropscaling
+		}
+	}
+}
+tt_content.image.20.equalH.if.isFalse.field = tx_nwtimagecrop_cropscaling

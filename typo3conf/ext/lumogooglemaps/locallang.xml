@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'lumogooglemaps'</description>
+	</meta>
+	<data type="array">
+		<!-- Default: English -->
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Google map</label>
+			<label index="pi1_plus_wiz_description">Add a Google map to your website and display any number of locations on it.</label>
+		</languageKey>
+		<!-- German -->
+		<languageKey index="de" type="array">
+			<label index="pi1_title">Google-Landkarte</label>
+			<label index="pi1_plus_wiz_description">Zeige eine Google-Landkarte mit einer beliebigen Anzahl von Orten darauf an.</label>
+		</languageKey>
+	</data>
+</T3locallang>

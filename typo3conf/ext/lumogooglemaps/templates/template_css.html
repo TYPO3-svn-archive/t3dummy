@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>CSS-based template for plugin &quot;tx_lumogooglemaps_pi1&quot;</title>
+	<style type="text/css">
+	/*<![CDATA[*/
+	<!--
+	body {
+		font-family:sans-serif;
+	}
+	div.template {
+		border:1px solid #000;
+		background-color:#aaa;
+		font-family:serif;
+		padding:5px;
+	}
+	dt {
+		font-family:monospace;
+	}
+	//-->
+	/*]]>*/
+	</style>
+</head>
+
+<body style="font-family:sans-serif;">
+
+<h1>CSS-based template for plugin &quot;tx_lumogooglemaps_pi1&quot;</h1>
+
+<h2>Template for positioning of map and sidebar</h2>
+
+<h3>Available marker</h3>
+
+The following markers are available:
+<dl>
+<dt>###MAP_HEADERJS###</dt>
+<dd>Marker is replaced with header JavaScript</dd>
+<dt>###MAP_MAPJS###</dt>
+<dd>Marker is replaced with JavaScript for map initialization</dd>
+<dt>###MAP_MAP###</dt>
+<dd>Marker is replaced by HTML and JavaScript for the map itself</dd>
+<dt>###MAP_SIDEBAR###</dt>
+<dd>Marker is replaced by HTML for the sidebar</dd>
+</dl>
+
+<h3>Template</h3>
+
+<div class="template">
+<!-- ###TEMPLATE_MAP### begin -->
+###MAP_HEADERJS###
+###MAP_MAPJS###
+###MAP_MAP###
+<br />
+###MAP_SIDEBAR###
+<!-- ###TEMPLATE_MAP### end -->
+</div>
+
+<hr />
+
+<h2>Templates for sidebar</h2>
+
+<h3>Available markers</h3>
+
+The following markers are available:
+<dl>
+<dt>###SIDEBAR_LIST###</dt>
+<dd>Markers wrap the whole list of sidebar items</dd>
+<dt>###SIDEBAR_ITEM###</dt>
+<dd>Markers wrap a single sidebar item</dd>
+<dt>###SIDEBAR_ITEM_LINK###</dt>
+<dd>Marker is replaced with JavaScript function call to show item in map; remember to prefix by "javascript:" when used in a HTML link tag's href attribute</dd>
+<dt>###SIDEBAR_ITEM_TITLE###</dt>
+<dd>Marker is replaced with item's title (name field from corresponding tt_address item)</dd>
+</dl>
+
+<h3>Template</h3>
+
+<h4>Simple template for sidebar (list of links)</h4>
+
+<div class="template">
+<!-- ###TEMPLATE_SIDEBAR### begin -->
+<div class="tx_lumogooglemaps_pi1_sidebar">
+List of markers set in map:
+<!-- ###SIDEBAR_LIST### begin -->
+<ul>
+<!-- ###SIDEBAR_ITEM### begin -->
+<li><a href="javascript:###SIDEBAR_ITEM_LINK###">###SIDEBAR_ITEM_TITLE###</a></li>
+<!-- ###SIDEBAR_ITEM### end -->
+</ul>
+<!-- ###SIDEBAR_LIST### end -->
+</div>
+<!-- ###TEMPLATE_SIDEBAR### end -->
+</div>
+
+<h4>Advanced template for sidebar (select list)</h4>
+
+<div class="template">
+<!-- ###TEMPLATE_SIDEBAR### begin -->
+<div class="tx_lumogooglemaps_pi1_sidebar">
+List of markers set in map:
+<!-- ###SIDEBAR_LIST### begin -->
+<select>
+<!-- ###SIDEBAR_ITEM### begin -->
+<option onclick="###SIDEBAR_ITEM_LINK###">###SIDEBAR_ITEM_TITLE###</option>
+<!-- ###SIDEBAR_ITEM### end -->
+</select>
+<!-- ###SIDEBAR_LIST### end -->
+</div>
+<!-- ###TEMPLATE_SIDEBAR### end -->
+</div>
+
+<hr />
+
+<h2>Template for content of info box</h2>
+
+<h3>Available markers</h3>
+
+The following markers are available which are replaced by the corresponding fields from the displayed tt_address item:
+<dl>
+<dt>###INFOBOX_NAME###</dt>
+<dt>###INFOBOX_TITLE###</dt>
+<dt>###INFOBOX_COMPANY###</dt>
+<dt>###INFOBOX_ADDRESS###</dt>
+<dt>###INFOBOX_ZIP###</dt>
+<dt>###INFOBOX_CITY###</dt>
+<dt>###INFOBOX_COUNTRY###</dt>
+<dt>###INFOBOX_EMAIL###</dt>
+<dt>###INFOBOX_WWW###</dt>
+<dt>###INFOBOX_PHONE###</dt>
+<dt>###INFOBOX_MOBILE###</dt>
+<dt>###INFOBOX_FAX###</dt>
+<dt>###INFOBOX_IMAGE###</dt>
+<dt>###INFOBOX_DESCRIPTION###</dt>
+<dt>###INFOBOX_LONGITUDE###</dt>
+<dt>###INFOBOX_LATITUDE###</dt>
+</dl>
+
+<h3>Template</h3>
+
+<div class="template">
+<!-- ###TEMPLATE_INFOBOX### begin -->
+<div class="tx_lumogooglemaps_pi1_infobox">
+<b>###INFOBOX_NAME###</b><br />
+###INFOBOX_ADDRESS###, ###INFOBOX_ZIP### ###INFOBOX_CITY###<br />
+<br />
+###INFOBOX_EMAIL###<br />
+###INFOBOX_WWW###<br />
+<br />
+###INFOBOX_IMAGE###<br />
+<br />
+###INFOBOX_DESCRIPTION###<br />
+</div>
+<!-- ###TEMPLATE_INFOBOX### end -->
+</div>
+
+</body>
+
+</html>

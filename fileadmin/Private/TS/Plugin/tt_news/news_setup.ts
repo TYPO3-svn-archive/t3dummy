@@ -1,0 +1,1 @@
+plugin.tt_news.general_stdWrap.parseFunc =< lib.parseFunc_RTE

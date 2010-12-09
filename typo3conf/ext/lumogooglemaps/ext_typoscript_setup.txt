@@ -1,0 +1,51 @@
+plugin.tx_lumogooglemaps_pi1 {
+   # Google API key
+   google_api_key = {$plugin.tx_lumogooglemaps_pi1.google_api_key}
+   # Template file
+   template_file = {$plugin.tx_lumogooglemaps_pi1.template_file}
+   # Default country for geocoding
+   default_country = {$plugin.tx_lumogooglemaps_pi1.default_country}
+   # IDs of pages with address items
+   pid_list =
+   recursive =
+   # Properties if the map
+   map {
+      # Width and height of map
+      width = 500
+      height = 500
+      # Type of map; possible values are: map, hybrid, satellite
+      type = map
+      # Show map type controls? Possible values are: show, hide
+      type_controls = show
+      # Show map navigation controls? Possible values are: hide, small, large
+      nav_controls = large
+      # Zoom level for map; possible values are: 1 - 18, auto
+      zoom = auto
+   }
+   # Center of the map
+   center {
+      # Longitude of center point
+      longitude = 11.200362
+      # Latitude of center point
+      latitude = 47.676643
+      # Show center point? Possible values are: 0 (show only if no point set), 1 (show always)
+      show = 0
+   }
+   # Properties of marker icons
+   marker {
+      # File for marker icon
+      icon = EXT:lumogooglemaps/templates/marker_icon.png
+      # File for shadow of marker icon
+      shadow = EXT:lumogooglemaps/templates/marker_shadow.png
+      # Coordinates in the marker image (with (0, 0) at top left of image) where the spot of the marker is
+      spot {
+         x = 6
+         y = 20
+      }
+      # Coordinates in the marker image (with (0, 0) at top left of image) where the info window has its origin
+      info {
+         x = 5
+         y = 1
+      }
+   }
+}

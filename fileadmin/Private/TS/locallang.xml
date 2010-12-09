@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Labels for the TypoScript Library</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="cesubcat.lib.logo">Logo</label>
+			<label index="cesubcat.lib.foldernav">Folder Navigation</label>
+			<label index="cesubcat.lib.foldernav2">Folder Navigation 2</label>
+			<label index="cesubcat.lib.searchform">Search Form</label>
+			<label index="cesubcat.lib.subcontent">Subcontent</label>
+			<label index="cesubcat.page.ganalytics">Google Analytics</label>
+			<label index="cesubcat.page.iecss">Fixes for Internet Explorer</label>
+			<label index="cesubcat.page.jQuery">jQuery</label>
+			<label index="cesubcat.plugin.dd_googlesitemap">Google XML Sitemap</label>
+			<label index="cesubcat.plugin.indexed_search">Indexed Search</label>
+			<label index="cesubcat.plugin.realurl">Realurl</label>
+			<label index="const.lib.logo.altText">Logo Alt Text</label>
+			<label index="const.lib.logo.homePid">Logo Link:Link target pid</label>
+			<label index="const.lib.logo.src">Logo File</label>
+			<label index="const.lib.foldernav.folderPid">Foldernav Pid:Storage Folder with Pages for this Menu</label>
+			<label index="const.lib.foldernav.gfx.bgColor">Foldernav Background Color:For transparency at graphical rendering</label>
+			<label index="const.lib.foldernav.gfx.fontColor">Foldernav Font Color:For graphical rendering</label>
+			<label index="const.lib.foldernav.gfx.fontFile">Foldernav Font File:For graphical rendering</label>
+			<label index="const.lib.foldernav.gfx.fontSize">Foldernav Font Size:For graphical rendering</label>
+			<label index="const.lib.foldernav.gfx.hoverFontColor">Foldernav Hover Font Color:For graphical rendering. Leave blank if you don't need a hover effect</label>
+			<label index="const.lib.foldernav.rendertype">Foldernav Rendertype</label>
+			<label index="const.lib.foldernav.rendertype.text">Text</label>
+			<label index="const.lib.foldernav.rendertype.gfximg">Graphical with img-Tag</label>
+			<label index="const.lib.foldernav.rendertype.gfxbg">Graphical with Background-Image</label>
+			<label index="const.lib.foldernav.rendertype.resrcimg">Display Resource-Image</label>
+			<label index="const.lib.foldernav.wrap">Wrap</label>
+			<label index="const.lib.searchform.targetPid">Search Result Page</label>
+			<label index="const.page.columns.border">Use Column "Border":Only for marker based templating!</label>
+			<label index="const.page.columns.left">Use Column "Left":Only for marker based templating!</label>
+			<label index="const.page.columns.normal">Use Column "Normal":Only for marker based templating!</label>
+			<label index="const.page.columns.right">Use Column "Right":Only for marker based templating!</label>
+			<label index="const.page.iecss.ie6pngFix">Use IE6 png fix</label>
+			<label index="const.page.iecss.ieCompatibilityMode">Force IE7 Compatbility Mode:IE8 behaves like IE7</label>
+			<label index="const.page.mainCSS">Main CSS File</label>
+			<label index="const.page.markerbasedTemplate">Main HTML Template:Only for marker based templating!</label>
+			<label index="const.page.printCssInclude">Include print CSS file:Public/CSS/print.css</label>
+			<label index="const.page.rteCssInclude">Css-Datei für RTE im Frontend einbinden:Public/CSS/rte.css</label>
+			<label index="const.page.stuffJsInclude">stuff.js einbinden</label>
+			<label index="const.page.useMarkerbasedTemplating">Use marker based templating:instead of TemplaVoilà</label>
+			<label index="const.page.useTemplateSelector">Benutze Template Selector:Nur bei markerbasiertem Templating!</label>
+			<label index="const.tt_content.monoImagesToColor.IMCommand">Command for monochrome Images:Effect applied to ImageMagick</label>
+			<label index="const.tt_content.monoImagesToColor.mouseoverTrigger">Regular Image on Mouseover</label>
+			<label index="const.tt_content.section_frames.includeSectionFrames">Config-Datei für Content-Rahmen (section Frames) einbinden</label>
+			<label index="const.tt_content.wrapCEs.wrap">Wrap for all Content Elements</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="cesubcat.lib.logo">Logo</label>
+			<label index="cesubcat.lib.metanav">Metanavigation</label>
+			<label index="cesubcat.lib.subcontent">Subcontent</label>
+			<label index="cesubcat.page.ganalytics">Google Analytics</label>
+			<label index="cesubcat.page.iecss">Fixes für Internet Explorer</label>
+			<label index="cesubcat.page.jQuery">jQuery</label>
+			<label index="cesubcat.plugin.dd_googlesitemap">Google XML-Sitemap</label>
+			<label index="cesubcat.plugin.indexed_search">Indexed Search</label>
+			<label index="cesubcat.plugin.realurl">Realurl</label>
+			<label index="const.lib.logo.altText">Alternativtext für das Logo</label>
+			<label index="const.lib.logo.homePid">Linkziel für das Logo:Normalerweise Pid der Startseite</label>
+			<label index="const.lib.logo.src">Logodatei</label>
+			<label index="const.lib.foldernav.folderPid">Foldernav Pid:Storage Folder mit Seiten für dieses Menü</label>
+			<label index="const.lib.foldernav.gfx.bgColor">Foldernav Hintergrundfarbe:Für die Transparenz beim grafischen Rendering</label>
+			<label index="const.lib.foldernav.gfx.fontColor">Foldernav Schriftfarbe:Für grafisches Rendering</label>
+			<label index="const.lib.foldernav.gfx.fontFile">Foldernav Font Datei:Für grafisches Rendering</label>
+			<label index="const.lib.foldernav.gfx.fontSize">Foldernav Schriftgröße:Für grafisches Rendering</label>
+			<label index="const.lib.foldernav.gfx.hoverFontColor">Foldernav Mouseover Schriftfarbe:Für grafisches Rendering. Leer lassen, wenn kein Mouseover-Effekt gebraucht wird</label>
+			<label index="const.lib.foldernav.rendertype">Foldernav Rendering</label>
+			<label index="const.lib.foldernav.rendertype.text">Text</label>
+			<label index="const.lib.foldernav.rendertype.gfximg">Grafisch mit img-Tag</label>
+			<label index="const.lib.foldernav.rendertype.gfxbg">Grafisch mit Hintergrundbild</label>
+			<label index="const.lib.foldernav.rendertype.resrcimg">Bild aus Ressourcen anzeigen</label>
+			<label index="const.lib.metanav.folderPid">Metanav Pid:Storage Folder mit Seiten für dieses Menü</label>
+			<label index="const.lib.metanav.gfx.bgColor">Metanav Hintergrundfarbe:Für die Transparenz beim grafischen Rendering</label>
+			<label index="const.lib.metanav.gfx.fontColor">Metanav Schriftfarbe:Für grafisches Rendering</label>
+			<label index="const.lib.metanav.gfx.fontFile">Metanav Font Datei:Für grafisches Rendering</label>
+			<label index="const.lib.metanav.gfx.fontSize">Metanav Schriftgröße:Für grafisches Rendering</label>
+			<label index="const.lib.metanav.gfx.hoverFontColor">Metanav Mouseover Schriftfarbe:Für grafisches Rendering. Leer lassen, wenn kein Mouseover-Effekt gebraucht wird</label>
+			<label index="const.lib.metanav.rendertype">Metanav Rendering</label>
+			<label index="const.lib.metanav.rendertype.text">Text</label>
+			<label index="const.lib.metanav.rendertype.gfximg">Grafisch mit img-Tag</label>
+			<label index="const.lib.metanav.rendertype.gfxbg">Grafisch mit Hintergrundbild</label>
+			<label index="const.page.columns.border">Spalte "Rand" aktivieren:Nur bei markerbasiertem Templating!</label>
+			<label index="const.page.columns.left">Spalte "Links" aktivieren:Nur bei markerbasiertem Templating!</label>
+			<label index="const.page.columns.normal">Spalte "Normal" aktivieren:Nur bei markerbasiertem Templating!</label>
+			<label index="const.page.columns.right">Spalte "Rechts" aktivieren:Nur bei markerbasiertem Templating!</label>
+			<label index="const.page.iecss.ie6pngFix">Use IE6 png fix</label>			
+			<label index="const.page.mainCSS">Standard CSS-Datei</label>
+			<label index="const.page.markerbasedTemplate">Haupt-HTML-Template:Nur bei markerbasiertem Templating!</label>
+			<label index="const.page.printCssInclude">Css-Datei mit Print-Stylesheets einbinden:Public/CSS/print.css</label>
+			<label index="const.page.useMarkerbasedTemplating">Benutzer markerbasiertes Templating:statt TemplaVoilà</label>
+			<label index="const.page.useTemplateSelector">Benutze Template Selector:Nur bei markerbasiertem Templating!</label>
+			<label index="const.tt_content.monoImagesToColor.IMCommand">Befehl für monochrome Bilder:Effekt wird auf ImageMagick angewandt</label>
+			<label index="const.tt_content.monoImagesToColor.mouseoverTrigger">Normales Bild bei Mouseover</label>
+			<label index="const.tt_content.wrapCEs.wrap">Wrap für alle Inhaltselemente</label>
+		</languageKey>
+	</data>
+</T3locallang>

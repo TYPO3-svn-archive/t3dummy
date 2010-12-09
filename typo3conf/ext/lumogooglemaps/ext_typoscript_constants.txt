@@ -1,0 +1,10 @@
+plugin.tx_lumogooglemaps_pi1 {
+   # cat=plugin.tx_lumogooglemaps_pi1/other/; type=string; label = Google API key : You need an API key from Google to use the Google Maps API. Sign up for a key for your website at http://www.google.com/apis/maps/
+   google_api_key =
+   
+   # cat=plugin.tx_lumogooglemaps_pi1/file/; type=string; label = Template file : The template file to use.
+   template_file = EXT:lumogooglemaps/templates/template_css.html
+
+   # cat=plugin.tx_lumogooglemaps_pi1/language/; type=string; label = Default country for addresses : For geocoding (i.e. getting longitude/latitude from an address) a country is need. The default country specified here is taken when there's no cvalue for a country given in a tt_address item; valid values are country names or country codes from ISO 3166 (country codes).
+   default_country = Germany
+}

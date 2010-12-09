@@ -1,0 +1,1 @@
+tx_ddgooglesitemap.forceStartPid = {$plugin.dd_googlesitemap.sitemap.pid}

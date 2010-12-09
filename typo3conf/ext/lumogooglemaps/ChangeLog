@@ -1,0 +1,17 @@
+(add new changes on top of this file)
+
+2006-07-23 Thomas Off, LumoNet oHG <t.off@lumonet.de>
+
+	* Temporarily fixed issue with getimagesize() in GoogleMapAPI.class.php
+
+2006-07-20 Thomas Off, LumoNet oHG <t.off@lumonet.de>
+
+	* Added option to set default zoom level for maps
+	* Added option to set center point of maps
+	* Improved geocoding using new Google Maps service
+	* Added TS option to set default country for geocoding
+	* Fixed dependencies from tt_address
+
+2006-05-02 Thomas Off, LumoNet oHG <t.off@lumonet.de>
+
+	* Initial release
