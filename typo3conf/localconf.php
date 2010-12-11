@@ -42,8 +42,8 @@ $GLOBALS['TYPO3_CONF_VARS']['FE']['addAllowedPaths'] = 'typo3/gfx/';
 
 ## INSTALL SCRIPT EDIT POINT TOKEN - all lines after this points may be changed by the install script!
 
-$TYPO3_CONF_VARS['EXT']['extList'] = 'pagetree,extbase,css_styled_content,extra_page_cm_options,impexp,sys_note,tstemplate,tstemplate_ceditor,tstemplate_info,tstemplate_objbrowser,tstemplate_analyzer,func_wizards,wizard_crpages,wizard_sortpages,lowlevel,install,belog,beuser,setup,taskcenter,info_pagetsconfig,viewpage,rtehtmlarea,t3skin,opendocs,openid,nc_staticfilecache,realurl,aeurltool,nwt_imagecrop,oneclicklogin,info,perm,func,filelist,t3editor,reports,fluid,static_info_tables,linkvalidator';	// Modified or inserted by TYPO3 Extension Manager. Modified or inserted by TYPO3 Core Update Manager.
-$TYPO3_CONF_VARS['EXT']['extList_FE'] = 'extbase,css_styled_content,install,rtehtmlarea,t3skin,openid,nc_staticfilecache,realurl,aeurltool,nwt_imagecrop,oneclicklogin,fluid,static_info_tables,linkvalidator';	// Modified or inserted by TYPO3 Extension Manager.
+$TYPO3_CONF_VARS['EXT']['extList'] = 'pagetree,extbase,css_styled_content,extra_page_cm_options,impexp,sys_note,tstemplate,tstemplate_ceditor,tstemplate_info,tstemplate_objbrowser,tstemplate_analyzer,func_wizards,wizard_crpages,wizard_sortpages,lowlevel,install,belog,beuser,setup,taskcenter,info_pagetsconfig,viewpage,rtehtmlarea,t3skin,opendocs,openid,nc_staticfilecache,realurl,aeurltool,nwt_imagecrop,oneclicklogin,info,perm,func,filelist,t3editor,reports,fluid,static_info_tables,linkvalidator,templavoila';	// Modified or inserted by TYPO3 Extension Manager. Modified or inserted by TYPO3 Core Update Manager.
+$TYPO3_CONF_VARS['EXT']['extList_FE'] = 'extbase,css_styled_content,install,rtehtmlarea,t3skin,openid,nc_staticfilecache,realurl,aeurltool,nwt_imagecrop,oneclicklogin,fluid,static_info_tables,linkvalidator,templavoila';	// Modified or inserted by TYPO3 Extension Manager.
 
 $TYPO3_CONF_VARS['GFX']['gdlib_png'] = '1';	// Modified or inserted by TYPO3 Install Tool. 
 $TYPO3_CONF_VARS['GFX']['png_truecolor'] = '1';	//  Modified or inserted by TYPO3 Install Tool.
