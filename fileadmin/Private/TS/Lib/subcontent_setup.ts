@@ -4,6 +4,7 @@ lib.subcontent {
   select {
     pidInList = {$lib.subcontent.subcontent.pid}
     orderBy = sorting
+	where = deleted = 0 AND hidden = 0
   }
 }
 
