@@ -25,8 +25,8 @@ RTE {
                 linkMitPfeil = linkMitPfeil
                 footerLink = footerLink
         }
-		
-  }
+		showButtons := removeFromList(class, blockstylelabel, blockstyle, textstylelabel, textstyle, outdent,indent,textindicator, subscript,superscript, formatBlock);
+	}
 	classes {
 		countingtable{
 			name = Nummerierte Tabelle
