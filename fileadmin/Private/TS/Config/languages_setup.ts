@@ -1,5 +1,5 @@
 config {
-	linkVars = L
+	linkVars = L(0-6)
 	language = de
 	locale_all = de_De
 }

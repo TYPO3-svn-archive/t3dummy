@@ -37,7 +37,7 @@ $TYPO3_CONF_VARS['FE']['pageNotFound_handling']   = 'READFILE:errorpages/404_err
 $TYPO3_CONF_VARS['FE']['dontSetCookie'] = 1;
 
 $TYPO3_CONF_VARS['BE']['forceCharset'] = 'utf-8';
-
+$TYPO3_CONF_VARS['BE']['explicitADmode'] = 'explicitAllow';
 $GLOBALS['TYPO3_CONF_VARS']['FE']['addAllowedPaths'] = 'typo3/gfx/';
 
 ## INSTALL SCRIPT EDIT POINT TOKEN - all lines after this points may be changed by the install script!
@@ -52,5 +52,5 @@ $TYPO3_CONF_VARS['FE']['disableNoCacheParameter'] = '0';	//  Modified or inserte
 $TYPO3_CONF_VARS['BE']['disable_exec_function'] = '0';	//  Modified or inserted by TYPO3 Install Tool.
 $TYPO3_CONF_VARS['EXT']['extConf']['realurl'] = 'a:5:{s:10:"configFile";s:26:"typo3conf/realurl_conf.php";s:14:"enableAutoConf";s:1:"1";s:14:"autoConfFormat";s:1:"0";s:12:"enableDevLog";s:1:"0";s:19:"enableChashUrlDebug";s:1:"0";}';	//  Modified or inserted by TYPO3 Extension Manager. 
 
-// Updated by TYPO3 Extension Manager 08-12-10 23:50:49
+
 ?>
