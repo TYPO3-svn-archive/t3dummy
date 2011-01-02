@@ -78,10 +78,10 @@ tmp.rendertype.gfximg{
       params.cObject = COA
       params.cObject{
       	10 = IMG_RESOURCE
-      	10.stdWrap.noTrimWrap = |onmouseout="this.src='|'" |
+      	10.stdWrap.noTrimWrap = | onmouseout="this.src='|'" |
       	10.file < tmp.rendertype.gfximg.1.NO.stdWrap.append.file
       	20 < .10
-      	20.stdWrap.noTrimWrap = |onmouseover="this.src='|'" |
+      	20.stdWrap.noTrimWrap = | onmouseover="this.src='|'" |
       	20.file.10.fontColor = {$lib.foldernav.gfx.hoverFontColor}
 				stdWrap.if.isTrue = {$lib.foldernav.gfx.hoverFontColor}
       }
