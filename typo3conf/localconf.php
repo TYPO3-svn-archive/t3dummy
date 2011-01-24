@@ -8,7 +8,7 @@ $TYPO3_CONF_VARS['SYS']['compat_version'] = '4.5';
  * LOCAL
  */
 $typo_db_host               = 'localhost';
-$typo_db                    = 't3dummy';
+$typo_db                    = '';
 $typo_db_username           = 'root';
 $typo_db_password           = '';
 $TYPO3_CONF_VARS['GFX']['im_path']      = '/opt/local/bin/';
