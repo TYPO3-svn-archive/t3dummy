@@ -31,7 +31,7 @@ $TYPO3_CONF_VARS['EXTCONF']['realurl'] = array(
 			'languageGetVar' => 'L',
 			'expireDays' => 7,
 ###### include your rootpage id here
-			'rootpage_id' => 12,
+			'rootpage_id' => 2,
 		),
 		'fixedPostVars' => array(
 		),
