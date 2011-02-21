@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<meta type="array">
+		<langDisable>1</langDisable>
+	</meta>
+	<ROOT type="array">
+		<tx_templavoila type="array">
+			<title>ROOT</title>
+			<description>Select the HTML element on the page which you want to be the overall container element for the template.</description>
+		</tx_templavoila>
+		<type>array</type>
+		<el type="array">
+			<field_content type="array">
+				<tx_templavoila type="array">
+					<title>Main Content</title>
+					<sample_data type="array">
+						<numIndex index="0"></numIndex>
+					</sample_data>
+					<eType>ce</eType>
+					<TypoScript><![CDATA[
+10= RECORDS
+10.source.current=1
+10.tables = tt_content
+10.wrap = <!--TYPO3SEARCH_begin--> | <!--TYPO3SEARCH_end-->]]></TypoScript>
+					<preview></preview>
+				</tx_templavoila>
+				<TCEforms type="array">
+					<label>Main Content</label>
+					<config type="array">
+						<type>group</type>
+						<internal_type>db</internal_type>
+						<allowed>tt_content</allowed>
+						<size>5</size>
+						<maxitems>200</maxitems>
+						<minitems>0</minitems>
+						<multiple>1</multiple>
+						<show_thumbs>1</show_thumbs>
+					</config>
+				</TCEforms>
+			</field_content>
+			<field_logo type="array">
+				<tx_templavoila type="array">
+					<title>Logo</title>
+					<sample_data type="array">
+						<numIndex index="0"></numIndex>
+					</sample_data>
+					<eType>TypoScriptObject</eType>
+					<proc type="array">
+						<int>0</int>
+						<HSC>0</HSC>
+						<stdWrap></stdWrap>
+					</proc>
+					<preview></preview>
+					<TypoScriptObjPath>lib.logo</TypoScriptObjPath>
+				</tx_templavoila>
+			</field_logo>
+			<field_foldernav type="array">
+				<tx_templavoila type="array">
+					<title>Foldernav</title>
+					<sample_data type="array">
+						<numIndex index="0"></numIndex>
+					</sample_data>
+					<eType>TypoScriptObject</eType>
+					<proc type="array">
+						<int>0</int>
+						<HSC>0</HSC>
+						<stdWrap></stdWrap>
+					</proc>
+					<preview></preview>
+					<TypoScriptObjPath>lib.foldernav</TypoScriptObjPath>
+				</tx_templavoila>
+			</field_foldernav>
+			<field_foldernav2 type="array">
+				<tx_templavoila type="array">
+					<title>Foldernav 2</title>
+					<sample_data type="array">
+						<numIndex index="0"></numIndex>
+					</sample_data>
+					<eType>TypoScriptObject</eType>
+					<proc type="array">
+						<int>0</int>
+						<HSC>0</HSC>
+						<stdWrap></stdWrap>
+					</proc>
+					<preview></preview>
+					<TypoScriptObjPath>lib.foldernav2</TypoScriptObjPath>
+				</tx_templavoila>
+			</field_foldernav2>
+			<field_foldernav3 type="array">
+				<tx_templavoila type="array">
+					<title>Foldernav 3</title>
+					<sample_data type="array">
+						<numIndex index="0"></numIndex>
+					</sample_data>
+					<eType>TypoScriptObject</eType>
+					<proc type="array">
+						<int>0</int>
+						<HSC>0</HSC>
+						<stdWrap></stdWrap>
+					</proc>
+					<preview></preview>
+					<TypoScriptObjPath>lib.foldernav3</TypoScriptObjPath>
+				</tx_templavoila>
+			</field_foldernav3>
+						<field_langmenu type="array">
+				<tx_templavoila type="array">
+					<title>Language Menu</title>
+					<sample_data type="array">
+						<numIndex index="0"></numIndex>
+					</sample_data>
+					<eType>TypoScriptObject</eType>
+					<proc type="array">
+						<int>0</int>
+						<HSC>0</HSC>
+						<stdWrap></stdWrap>
+					</proc>
+					<preview></preview>
+					<TypoScriptObjPath>lib.langmenu</TypoScriptObjPath>
+				</tx_templavoila>
+			</field_langmenu>
+			<field_search type="array">
+				<tx_templavoila type="array">
+					<title>Searchform</title>
+					<sample_data type="array">
+						<numIndex index="0"></numIndex>
+					</sample_data>
+					<eType>TypoScriptObject</eType>
+					<proc type="array">
+						<int>0</int>
+						<HSC>0</HSC>
+						<stdWrap></stdWrap>
+					</proc>
+					<preview></preview>
+					<TypoScriptObjPath>lib.searchform</TypoScriptObjPath>
+				</tx_templavoila>
+			</field_search>
+		</el>
+	</ROOT>
+</T3DataStructure>
