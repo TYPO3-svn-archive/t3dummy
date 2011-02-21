@@ -15,7 +15,7 @@ page.page{
   #cat=Site conf.page/file/stuffjs; type=boolean; label=LLL:fileadmin/Private/TS/locallang.xml:const.page.stuffJsInclude
   stuffJsInclude = 0
 
-  #cat=Site conf.page/other/html; type=options[XHTML=xhtml_trans,HTML5=html_5]; label=Doctype: XHMTL oder HTML5
-  doctype = xhtml_trans
+  #cat=Site conf.page/other/html; type=options[XHTML=xhtml_trans,HTML5=html5]; label=Doctype: XHMTL oder HTML5
+  doctype = html5
   
 }
