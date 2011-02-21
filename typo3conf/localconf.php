@@ -25,7 +25,6 @@ $TYPO3_CONF_VARS['SYS']['t3lib_cs_utils']      = 'mbstring';
 $TYPO3_CONF_VARS['SYS']['doNotCheckReferer']   = '1';
 $TYPO3_CONF_VARS['SYS']['forceReturnPath']     = '1';
 $TYPO3_CONF_VARS['SYS']['UTF8filesystem']      = '1';
-$TYPO3_CONF_VARS['SYS']['setDBinit'] = 'UTF-8';
 
 $TYPO3_CONF_VARS['BE']['fileCreateMask']   = '0644';
 $TYPO3_CONF_VARS['BE']['folderCreateMask'] = '0755';
@@ -49,7 +48,6 @@ $TYPO3_CONF_VARS['GFX']['gdlib_png'] = '1';	// Modified or inserted by TYPO3 Ins
 $TYPO3_CONF_VARS['GFX']['png_truecolor'] = '1';	//  Modified or inserted by TYPO3 Install Tool.
 
 $TYPO3_CONF_VARS['FE']['disableNoCacheParameter'] = '0';	//  Modified or inserted by TYPO3 Install Tool.  
-$TYPO3_CONF_VARS['BE']['disable_exec_function'] = '0';	//  Modified or inserted by TYPO3 Install Tool.
 $TYPO3_CONF_VARS['EXT']['extConf']['realurl'] = 'a:5:{s:10:"configFile";s:26:"typo3conf/realurl_conf.php";s:14:"enableAutoConf";s:1:"1";s:14:"autoConfFormat";s:1:"0";s:12:"enableDevLog";s:1:"0";s:19:"enableChashUrlDebug";s:1:"0";}';	//  Modified or inserted by TYPO3 Extension Manager. 
 
 
