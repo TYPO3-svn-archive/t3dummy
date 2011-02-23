@@ -10,7 +10,8 @@ lib.searchform {
 	20 = COA
 	20 {
 		10 = TEXT
-		10.value = <input type="text" class="searchinput" name="tx_indexedsearch[sword]" value="Suchbegriff eingeben"/>
+		10.value = Suchbegriff eingeben
+		10.wrap = <input type="text" class="searchinput" id="searchinput" name="tx_indexedsearch[sword]" value="|" />
 		20 = TEXT
 		20.value = <input type="submit" class="submit" name="tx_indexedsearch[submit_button]" value="Suchen" />
 		wrap = <div class="searchwrap">|</div>
