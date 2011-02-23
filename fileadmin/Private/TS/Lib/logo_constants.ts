@@ -1,8 +1,5 @@
 lib.logo{
   #customsubcategory=lib.logo=LLL:fileadmin/Private/TS/locallang.xml:cesubcat.lib.logo
-
-  #cat=Site conf.lib/lib.logo/a; type=options[Imagetag=imagetag,CSSBased=cssbased]; label=Rendertyp des Logos
-  rendertype = imagetag
   
   #cat=Site conf.lib/lib.logo/c; type=string; label= LLL:fileadmin/Private/TS/locallang.xml:const.lib.logo.src
   src = fileadmin/Public/Images/logo.png

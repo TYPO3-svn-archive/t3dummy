@@ -6,6 +6,8 @@ tmp.rendertype.text{
     NO.wrapItemAndSub = <li class="first">|</li>|*|<li>|</li>
     ACT = 1
     ACT.wrapItemAndSub = <li class="act first">|</li>|*|<li class="act">|</li>
+	CUR < ACT
+	
   }
 }
 
