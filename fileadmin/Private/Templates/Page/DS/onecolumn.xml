@@ -10,7 +10,23 @@
 		</tx_templavoila>
 		<type>array</type>
 		<el type="array">
-			<field_content type="array">
+			<field_mainheader type="array">
+				<tx_templavoila type="array">
+					<title>Header</title>
+					<sample_data type="array">
+						<numIndex index="0"></numIndex>
+					</sample_data>
+					<eType>TypoScriptObject</eType>
+					<proc type="array">
+						<int>0</int>
+						<HSC>0</HSC>
+						<stdWrap></stdWrap>
+					</proc>
+					<preview></preview>
+					<TypoScriptObjPath>lib.header</TypoScriptObjPath>
+				</tx_templavoila>
+			</field_mainheader>
+			<field_maincontent type="array">
 				<tx_templavoila type="array">
 					<title>Main Content</title>
 					<sample_data type="array">
@@ -37,103 +53,56 @@
 						<show_thumbs>1</show_thumbs>
 					</config>
 				</TCEforms>
-			</field_content>
-			<field_logo type="array">
+			</field_maincontent>
+			<field_mainnav type="array">
 				<tx_templavoila type="array">
-					<title>Logo</title>
-					<sample_data type="array">
-						<numIndex index="0"></numIndex>
-					</sample_data>
+					<title>Main Navigation</title>
 					<eType>TypoScriptObject</eType>
-					<proc type="array">
-						<int>0</int>
-						<HSC>0</HSC>
-						<stdWrap></stdWrap>
-					</proc>
-					<preview></preview>
-					<TypoScriptObjPath>lib.logo</TypoScriptObjPath>
-				</tx_templavoila>
-			</field_logo>
-			<field_foldernav type="array">
-				<tx_templavoila type="array">
-					<title>Foldernav</title>
-					<sample_data type="array">
-						<numIndex index="0"></numIndex>
-					</sample_data>
-					<eType>TypoScriptObject</eType>
-					<proc type="array">
-						<int>0</int>
-						<HSC>0</HSC>
-						<stdWrap></stdWrap>
-					</proc>
-					<preview></preview>
 					<TypoScriptObjPath>lib.foldernav</TypoScriptObjPath>
 				</tx_templavoila>
-			</field_foldernav>
-			<field_foldernav2 type="array">
+			</field_mainnav>
+			<field_metanav type="array">
 				<tx_templavoila type="array">
-					<title>Foldernav 2</title>
-					<sample_data type="array">
-						<numIndex index="0"></numIndex>
-					</sample_data>
+					<title>Meta Navigation</title>
 					<eType>TypoScriptObject</eType>
-					<proc type="array">
-						<int>0</int>
-						<HSC>0</HSC>
-						<stdWrap></stdWrap>
-					</proc>
-					<preview></preview>
 					<TypoScriptObjPath>lib.foldernav2</TypoScriptObjPath>
 				</tx_templavoila>
-			</field_foldernav2>
-			<field_foldernav3 type="array">
+			</field_metanav>
+			<field_footernav type="array">
 				<tx_templavoila type="array">
-					<title>Foldernav 3</title>
-					<sample_data type="array">
-						<numIndex index="0"></numIndex>
-					</sample_data>
+					<title>Footer Navigation</title>
 					<eType>TypoScriptObject</eType>
-					<proc type="array">
-						<int>0</int>
-						<HSC>0</HSC>
-						<stdWrap></stdWrap>
-					</proc>
-					<preview></preview>
 					<TypoScriptObjPath>lib.foldernav3</TypoScriptObjPath>
 				</tx_templavoila>
-			</field_foldernav3>
-						<field_langmenu type="array">
+			</field_footernav>
+			<field_langmenu type="array">
 				<tx_templavoila type="array">
 					<title>Language Menu</title>
-					<sample_data type="array">
-						<numIndex index="0"></numIndex>
-					</sample_data>
 					<eType>TypoScriptObject</eType>
-					<proc type="array">
-						<int>0</int>
-						<HSC>0</HSC>
-						<stdWrap></stdWrap>
-					</proc>
-					<preview></preview>
 					<TypoScriptObjPath>lib.langmenu</TypoScriptObjPath>
 				</tx_templavoila>
 			</field_langmenu>
-			<field_search type="array">
+			<field_searchform type="array">
 				<tx_templavoila type="array">
 					<title>Searchform</title>
-					<sample_data type="array">
-						<numIndex index="0"></numIndex>
-					</sample_data>
 					<eType>TypoScriptObject</eType>
-					<proc type="array">
-						<int>0</int>
-						<HSC>0</HSC>
-						<stdWrap></stdWrap>
-					</proc>
-					<preview></preview>
 					<TypoScriptObjPath>lib.searchform</TypoScriptObjPath>
 				</tx_templavoila>
-			</field_search>
+			</field_searchform>
+			<field_logo type="array">
+				<tx_templavoila type="array">
+					<title>Logo</title>
+					<eType>TypoScriptObject</eType>
+					<TypoScriptObjPath>lib.logo</TypoScriptObjPath>
+				</tx_templavoila>
+			</field_logo>
+			<field_mainfooter type="array">
+				<tx_templavoila type="array">
+					<title>Footer</title>
+					<eType>TypoScriptObject</eType>
+					<TypoScriptObjPath>lib.footer</TypoScriptObjPath>
+				</tx_templavoila>
+			</field_mainfooter>
 		</el>
 	</ROOT>
 </T3DataStructure>
