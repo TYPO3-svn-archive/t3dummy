@@ -11,13 +11,13 @@ $typo_db_host               = 'localhost';
 $typo_db                    = '';
 $typo_db_username           = 'root';
 $typo_db_password           = '';
-$TYPO3_CONF_VARS['GFX']['im_path']      = '/opt/local/bin/';
-$TYPO3_CONF_VARS['GFX']['im_path_lzw']  = '/opt/local/bin/';
+$TYPO3_CONF_VARS['GFX']['im_path']      = 'C:\\Program Files\\ImageMagick-6.6.7-Q16\\';
+$TYPO3_CONF_VARS['GFX']['im_path_lzw']  = 'C:\\Program Files\\ImageMagick-6.6.7-Q16\\';
 
 $typo_db_extTableDef_script = 'extTables.php';
 
 $TYPO3_CONF_VARS['GFX']['gdlib_2']      = '1';
-$TYPO3_CONF_VARS['GFX']['im_version_5'] = 'gm';
+$TYPO3_CONF_VARS['GFX']['im_version_5'] = 'im6';
 $TYPO3_CONF_VARS['GFX']['TTFdpi']       = '96';
 
 $TYPO3_CONF_VARS['SYS']['t3lib_cs_convMethod'] = 'mbstring';
