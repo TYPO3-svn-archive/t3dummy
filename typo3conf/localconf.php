@@ -29,18 +29,14 @@ $TYPO3_CONF_VARS['SYS']['doNotCheckReferer']   = '1';
 $TYPO3_CONF_VARS['SYS']['forceReturnPath']     = '1';
 $TYPO3_CONF_VARS['SYS']['UTF8filesystem']      = '1';
 
+$TYPO3_CONF_VARS['BE']['explicitADmode'] = 'explicitAllow';
+$TYPO3_CONF_VARS['BE']['forceCharset'] = 'utf-8';
 $TYPO3_CONF_VARS['BE']['fileCreateMask']   = '0644';
 $TYPO3_CONF_VARS['BE']['folderCreateMask'] = '0755';
 $TYPO3_CONF_VARS['BE']['maxFileSize']      = '20480';
 
-$TYPO3_CONF_VARS['FE']['pageNotFound_handling']   = 'READFILE:errorpages/404_error.shtml';
-
-// Enable this if the website uses a login form
 $TYPO3_CONF_VARS['FE']['dontSetCookie'] = 1;
-
-$TYPO3_CONF_VARS['BE']['forceCharset'] = 'utf-8';
-$TYPO3_CONF_VARS['BE']['explicitADmode'] = 'explicitAllow';
-$GLOBALS['TYPO3_CONF_VARS']['FE']['addAllowedPaths'] = 'typo3/gfx/';
+$TYPO3_CONF_VARS['FE']['pageNotFound_handling']   = 'READFILE:errorpages/404_error.shtml';
 
 ## INSTALL SCRIPT EDIT POINT TOKEN - all lines after this points may be changed by the install script!
 
@@ -48,8 +44,5 @@ $TYPO3_CONF_VARS['EXT']['extList'] = 'pagetree,extbase,css_styled_content,extra_
 $TYPO3_CONF_VARS['EXT']['extList_FE'] = 'extbase,css_styled_content,install,rtehtmlarea,t3skin,openid,nc_staticfilecache,realurl,aeurltool,nwt_imagecrop,oneclicklogin,fluid,static_info_tables,linkvalidator,templavoila';	// Modified or inserted by TYPO3 Extension Manager.
 
 $TYPO3_CONF_VARS['EXT']['extConf']['realurl'] = 'a:5:{s:10:"configFile";s:26:"typo3conf/realurl_conf.php";s:14:"enableAutoConf";s:1:"1";s:14:"autoConfFormat";s:1:"0";s:12:"enableDevLog";s:1:"0";s:19:"enableChashUrlDebug";s:1:"0";}';	//  Modified or inserted by TYPO3 Extension Manager. 
-
-
 $TYPO3_CONF_VARS['EXT']['extConf']['templavoila'] = 'a:2:{s:7:"enable.";a:3:{s:13:"oldPageModule";s:1:"0";s:19:"selectDataStructure";s:1:"0";s:15:"renderFCEHeader";s:1:"0";}s:9:"staticDS.";a:3:{s:6:"enable";s:1:"1";s:8:"path_fce";s:36:"fileadmin/Private/Templates/FCEs/DS/";s:9:"path_page";s:36:"fileadmin/Private/Templates/Page/DS/";}}';	// Modified or inserted by TYPO3 Extension Manager. 
-// Updated by TYPO3 Extension Manager 21-02-11 22:37:29
 ?>
